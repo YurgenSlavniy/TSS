@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>TradeSupportSystem</title>
-    <meta charset="utf-8" />
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}calculator{% endblock title %}
+{% block header %}Tride Support System (TSS){% endblock header %}
+{% block content%}  
     <h2>Калькулятор ордеров</h2>
     <ul> Пользователь вводит сколько у него денег </ul>
     <ul> Пользователь выбирает торговую пару </ul>
     <ul> Пользователь выбирает некоторые настройки </ul>
     <ul> ему генерируются ордера, согласно выбранным натсройкам </ul>
-</body>
-</html>
+{% endblock content %}
