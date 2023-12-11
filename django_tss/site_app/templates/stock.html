@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>TradeSupportSystem</title>
-    <meta charset="utf-8" />
-</head>
-<body>
+
+{% extends "base.html" %}
+{% block title %}stock{% endblock title %}
+{% block header %}Tride Support System (TSS){% endblock header %}
+{% block content%}   
     <h2>Рыночные катировки</h2>
     <ul> Получаем по апиай свежие данные катировок с биржи </ul>
     <ul> Возможность сортировки полученных данных </ul>
     <ul> Оценить что можно собрать по апиай и что стоит в каком виде представлять пользователю </ul>
 
 
-    <h2>Пробный API запрос:
+    <h2>Пробный API запрос:</h2>
         <p>{{ api }}</p>
     
-</body>
-</html>
+{% endblock content %}
+
