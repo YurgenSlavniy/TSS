@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{% block title %}Default title{% endblock title %}</title>
+</head>
+<body>
+    <div><a href="/">Главная</a> | 
+    <a href="/stock">Катировки</a> | 
+    <a href="/history">Анализ истории торгов</a> |   
+    <a href="/calculator">Калькулятор</a> |
+    <a href="/models">Модели</a> |
+    </div>
+    <h1>{% block header %}{% endblock header %}</h1>
+    <div>{% block content%}{% endblock content %}</div>
+    <div>MyCorp. 2023. All rights reserved.</div>
+</body>
+</html>
+
