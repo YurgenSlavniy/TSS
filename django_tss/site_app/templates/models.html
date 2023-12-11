@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>TradeSupportSystem</title>
-    <meta charset="utf-8" />
-</head>
-<body>
+
+{% extends "base.html" %}
+{% block title %}Index{% endblock title %}
+{% block header %}Tride Support System (TSS){% endblock header %}
+{% block content%}  
     <h2>MODELS</h2>
     <ul> В этом разделе хочется смоделировать поведение рынка </ul>
     <ul> Возможность выбора торговой пары </ul>
@@ -12,5 +11,4 @@
     <ul> Расставляем моделируемые ордера </ul>
     <ul> Выбираем продолжительность временного периода моделирования </ul>
     <ul> Запускаем модельки, смотрим отчёты </ul>
-</body>
-</html>
+{% endblock content %}
