@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>TradeSupportSystem</title>
-    <meta charset="utf-8" />
-</head>
-<body>
+
+{% extends "base.html" %}
+{% block title %}history{% endblock title %}
+{% block header %}Tride Support System (TSS){% endblock header %}
+{% block content%}    
     <h2>Анализ истории торгов</h2>
     <ul> форма загрузки истори торгов пользователем </ul>
     <ul> аналитика полученной истори и вывод пользователю отчта </ul>
     <ul> На данный момент есть код, реализующий некоторую аналитику, база которую можно сюда поместить </ul>
-</body>
-</html>
+{% endblock content %}
