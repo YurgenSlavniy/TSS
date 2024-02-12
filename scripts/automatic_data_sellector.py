@@ -85,7 +85,20 @@ def price_list():
                  'TRX_RUB',
                  'NEO_RUB',
                  'GUSD_RUB',
-                 'ALGO_RUB']	
+                 'ALGO_RUB',
+                 'EXM_BTC',
+                 'EXM_ETH',
+                 'EXM_USDT',
+                 'DOGE_BTC',
+                 'TON_BTC',
+                 'ETH_BTC',
+                 'DOGE_USDT',
+                 'PRQ_USDT',
+                 'USDT_KZT',
+                 'XRP_ETH',
+                 'TRX_BTC',
+                 'SHIB_USDT',
+                 'PEPE_USDT']	    
 
     currents_list = []
     price_list = []
@@ -162,7 +175,20 @@ def database_list():
                  'TRX_RUB',
                  'NEO_RUB',
                  'GUSD_RUB',
-                 'ALGO_RUB']	
+                 'ALGO_RUB',
+                 'EXM_BTC',
+                 'EXM_ETH',
+                 'EXM_USDT',
+                 'DOGE_BTC',
+                 'TON_BTC',
+                 'ETH_BTC',
+                 'DOGE_USDT',
+                 'PRQ_USDT',
+                 'USDT_KZT',
+                 'XRP_ETH',
+                 'TRX_BTC',
+                 'SHIB_USDT',
+                 'PEPE_USDT']	    
      
                  
     date_time_list = []
